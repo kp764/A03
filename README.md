@@ -1,4 +1,4 @@
-# A03
+#A03
 Welcome to my README file. 
 
 	It will guide you through basic concepts of Github.
@@ -27,3 +27,22 @@ Welcome to my README file.
 			The fetch command is used to downloaad the whole repository to see what everyone has commited.
 		What is remote?
 			A remote is a junction where team members can exchnage codes from remote repository.
+			
+		so how do we setup git?
+			->we can do this several ways. If you want to use the desktop app then you can downloaad the exe file from https://desktop.github.com/
+			->After installing the desktop app we can login to the app with our git hub account and manage repositorys, invite people,push updated commits and most of the stuff that can be done on website
+			-> it is best idea to download and install git into the computer so that it can be accessed via command line. In linux and macOS the git command is alredy installed
+					but in windows we need to install git from https://git-scm.com/download/win
+			-> After installing git in windows the steps for all the operating systems is same.
+			-> Make a folder on the hardisk and cd into it via terminal
+				-> clone a repo in the folder by using clone command discussed above.
+				-> next do $git init to initalize the git repository
+				-> next do git add to add all the files in the repository
+				-> now it is time to commit, type in the $git commit -m "message" to commit the file
+				-> now add a remote to your directory so you can push changes anytime. to do that type $git remote add origin remote repository URL 
+				-> now to push the changes do $git push -u origin master, this will push the new file to the repo
+				
+			we can check the status of the commit by typing $git status.
+			
+		after following all the steps you are ready to push and pull code from the repo as you please.
+			
